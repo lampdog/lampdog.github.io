@@ -1,3 +1,56 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: ""
+languageCode: pt-br
+title: Baía do Cachorro Luminária
+
+theme: PaperMod
+
+# number of posts on the main page
+paginate: 3
+
+
+params:
+    homeInfoParams:
+        Title: "Hello there, Stranger."
+        Content: "Acho justo dizer que nada do que for dito aqui deverá ser levado ao pé da letra ao mesmo tempo em que nada disso é inteiramente figurativo. Fica sob sua responsabilidade escolher até onde vão os limites de cada."
+
+    socialIcons:
+      - name: mastodon
+        url: https://fosstodon.org/@lampdog
+      - name: github
+        url: https://github.com/lampdog
+
+    cover:
+        linkFullImages: true # sera q eu quero q as pessoas façam download das images?
+
+    ShowBreadCrumbs: true
+    ShowReadingTime: true
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+    defaultTheme: dark
+    disableThemeToggle: true
+    disableScrollToTop: false # ta funcionando mas ta meio limitado
+
+
+# top menu
+menu:
+    main:
+      - identifier: archives
+        name: Arquivo
+        url: archives
+        weight: 10
+      - identifier: art
+        name: Alguma arte
+        url: art
+        weight: 20
+      - identifier: categories
+        name: Categories
+        url: categories/
+        weight: 30
+      - identifier: about
+        name: Sobre
+        url: about
+        weight: 40
+      - identifier: music
+        name: Músicas
+        url: music
+        weight: 25

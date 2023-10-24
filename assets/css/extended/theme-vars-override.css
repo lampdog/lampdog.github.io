@@ -1,0 +1,26 @@
+/* override das cores pra ficar catpuccin mocca */
+/*n gostei muito do light mas ta funcional. O dark ta bacaninha, mas dá pra melhorar.*/
+
+:root {
+    --theme: #eff1f5;
+    --entry: #ccd0da;
+    --primary: #7287fd; /*#e64553 vou tacar lavender */
+    --secondary: #6c6f85;
+    --tertiary: #dce0e8;
+    --content: #4c4f69;
+    --hljs-bg: #40a02b;
+    --code-bg: #e6e9ef;
+    --border: #bcc0cc;
+}
+
+.dark {
+    --theme: #1e1e2e; /*background OK Base */
+    --entry: #313244; /*panes dos posts OK Surface0 */
+    --primary: #eba0ac; /*cor das letras de destaque e detalhes OK  #fab387 Maroon */
+    --secondary: #a6adc8; /*#b4befe  texto secundário (o texto nos panes, as coisas abaixo dos H1) Subtext0  */
+    --tertiary: #11111b;  /*#181825  O círculo do go to top button Crust */
+    --content: #cdd6f4;  /* texto dos posts, o centeudo em si  Text  */
+    --hljs-bg: #a6e3a1;  /*#2e2e33  N FAÇO IDEIA Green */
+    --code-bg: #181825;  /* #37383e  Os botoes lá embaixo pra ir pro proximo ou anteior, estando na página de um post  Mantle*/
+    --border: #45475a; /*borda dos panes dos posts Surface1*/
+}
